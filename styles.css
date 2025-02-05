@@ -1,17 +1,17 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* A more dynamic font */
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
-    line-height: 1.8;
+    line-height: 1.6;
     font-size: 18px; /* Increased base font size */
 }
 
 header {
-    background-color: #007BFF;
-    color: white;
+    background-color: #1a1a1a; /* Dark background for header */
+    color: #ffd700; /* Gold text color */
     padding: 40px 0;
     text-align: center;
     font-size: 1.4em; /* Increased font size */
@@ -20,11 +20,15 @@ header {
 header h1 {
     font-size: 3.5em; /* Larger font size for name */
     margin: 0;
+    font-weight: 700; /* Bold weight */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
 }
 
 header h2 {
-    font-size: 2.5em; /* Larger font size for title */
-    margin: 0;
+    font-size: 2em; /* Larger font size for title */
+    margin: 10px 0 0;
+    font-weight: 500; /* Medium weight */
+    color: #ffd700; /* Gold color for the title */
 }
 
 main {
@@ -33,7 +37,7 @@ main {
 
 section {
     margin-bottom: 40px;
-    background: white;
+    background: #fff;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -47,14 +51,17 @@ section:hover {
 section h2 {
     font-size: 2.4em; /* Larger font size for section headers */
     margin-bottom: 20px;
-    border-bottom: 3px solid #007BFF;
+    border-bottom: 3px solid #ffd700; /* Gold border */
     padding-bottom: 15px;
+    color: #1a1a1a; /* Black text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
 }
 
 section h3 {
     font-size: 1.8em; /* Larger font size for subheaders */
     margin-bottom: 15px;
-    color: #007BFF;
+    color: #1a1a1a; /* Black text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
 }
 
 section h3 + ul {
@@ -70,23 +77,26 @@ section ul {
 section ul li {
     margin: 15px 0; /* Increased spacing between list items */
     font-size: 1.2em; /* Slightly larger font size for list items */
+    color: #1a1a1a; /* Black text color */
 }
 
 /* Adjusted About Me content size */
 section#about p {
     font-size: 1.2em; /* Matched font size with other content */
     margin: 15px 0; /* Increased spacing around the paragraph */
+    color: #1a1a1a; /* Black text color */
 }
 
 /* Adjusted Education content size */
 section#education p {
     font-size: 1.2em; /* Matched font size with other content */
     margin: 15px 0; /* Increased spacing around the paragraph */
+    color: #1a1a1a; /* Black text color */
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #1a1a1a; /* Dark background for footer */
+    color: #ffd700; /* Gold text color */
     text-align: center;
     padding: 20px 0;
     position: fixed;
@@ -103,10 +113,11 @@ footer p {
 #contact p {
     font-size: 1.6em; /* Larger font size for contact info */
     text-align: left; /* Align contact info to the left */
+    color: #1a1a1a; /* Black text color */
 }
 
 #contact p a {
-    color: #007BFF;
+    color: #ffd700; /* Gold color for links */
     text-decoration: none;
 }
 
