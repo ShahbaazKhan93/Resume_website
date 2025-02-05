@@ -1,126 +1,83 @@
 /* General Styles */
 body {
-    font-family: 'Montserrat', sans-serif; /* A more dynamic font */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
-    font-size: 18px; /* Increased base font size */
+    font-size: 18px;
 }
 
 header {
-    background-color: #1a1a1a; /* Dark background for header */
-    color: #ffd700; /* Gold text color */
-    padding: 40px 0;
-    text-align: center;
-    font-size: 1.4em; /* Increased font size */
+    background-color: #1a1a1a;
+    color: #ffd700;
+    padding: 20px;
+    text-align: left; /* Align header content to the left */
 }
 
 header h1 {
-    font-size: 3.5em; /* Larger font size for name */
+    font-size: 2.5em;
     margin: 0;
-    font-weight: 700; /* Bold weight */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
 }
 
 header h2 {
-    font-size: 2em; /* Larger font size for title */
-    margin: 10px 0 0;
-    font-weight: 500; /* Medium weight */
-    color: #ffd700; /* Gold color for the title */
+    font-size: 1.5em;
+    margin: 5px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align navigation items to the right */
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #fff;
 }
 
 main {
-    padding: 40px;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 100%; /* Span the entire width of the page */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 section {
     margin-bottom: 40px;
-    background: #fff;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-}
-
-section:hover {
-    transform: scale(1.02); /* Slight zoom effect on hover */
 }
 
 section h2 {
-    font-size: 2.4em; /* Larger font size for section headers */
+    font-size: 2em;
+    color: #1a1a1a;
     margin-bottom: 20px;
-    border-bottom: 3px solid #ffd700; /* Gold border */
-    padding-bottom: 15px;
-    color: #1a1a1a; /* Black text color */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
-}
-
-section h3 {
-    font-size: 1.8em; /* Larger font size for subheaders */
-    margin-bottom: 15px;
-    color: #1a1a1a; /* Black text color */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
-}
-
-section h3 + ul {
-    margin-top: 15px;
-}
-
-section ul {
-    list-style-type: disc; /* Use disc for bullet points */
-    padding-left: 25px; /* Indent the list */
-    margin: 0;
-}
-
-section ul li {
-    margin: 15px 0; /* Increased spacing between list items */
-    font-size: 1.2em; /* Slightly larger font size for list items */
-    color: #1a1a1a; /* Black text color */
-}
-
-/* Adjusted About Me content size */
-section#about p {
-    font-size: 1.2em; /* Matched font size with other content */
-    margin: 15px 0; /* Increased spacing around the paragraph */
-    color: #1a1a1a; /* Black text color */
-}
-
-/* Adjusted Education content size */
-section#education p {
-    font-size: 1.2em; /* Matched font size with other content */
-    margin: 15px 0; /* Increased spacing around the paragraph */
-    color: #1a1a1a; /* Black text color */
+    border-bottom: 3px solid #ffd700;
+    padding-bottom: 10px;
 }
 
 footer {
-    background-color: #1a1a1a; /* Dark background for footer */
-    color: #ffd700; /* Gold text color */
+    background-color: #1a1a1a;
+    color: #ffd700;
     text-align: center;
-    padding: 20px 0;
-    position: fixed;
+    padding: 10px 0;
+    position: relative;
     width: 100%;
-    bottom: 0;
-    font-size: 1.4em; /* Larger font size for footer */
 }
 
-footer p {
-    margin: 0;
-}
-
-/* Contact */
-#contact p {
-    font-size: 1.6em; /* Larger font size for contact info */
-    text-align: left; /* Align contact info to the left */
-    color: #1a1a1a; /* Black text color */
-}
-
-#contact p a {
-    color: #ffd700; /* Gold color for links */
-    text-decoration: none;
-}
-
-#contact p a:hover {
-    text-decoration: underline;
-}
+/* Add specific styles for each section as needed */
