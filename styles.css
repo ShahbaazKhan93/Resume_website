@@ -1,0 +1,115 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.8;
+    font-size: 18px; /* Increased base font size */
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 1.4em; /* Increased font size */
+}
+
+header h1 {
+    font-size: 3.5em; /* Larger font size for name */
+    margin: 0;
+}
+
+header h2 {
+    font-size: 2.5em; /* Larger font size for title */
+    margin: 0;
+}
+
+main {
+    padding: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+}
+
+section h2 {
+    font-size: 2.4em; /* Larger font size for section headers */
+    margin-bottom: 20px;
+    border-bottom: 3px solid #007BFF;
+    padding-bottom: 15px;
+}
+
+section h3 {
+    font-size: 1.8em; /* Larger font size for subheaders */
+    margin-bottom: 15px;
+    color: #007BFF;
+}
+
+section h3 + ul {
+    margin-top: 15px;
+}
+
+section ul {
+    list-style-type: disc; /* Use disc for bullet points */
+    padding-left: 25px; /* Indent the list */
+    margin: 0;
+}
+
+section ul li {
+    margin: 15px 0; /* Increased spacing between list items */
+    font-size: 1.2em; /* Slightly larger font size for list items */
+}
+
+/* Adjusted About Me content size */
+section#about p {
+    font-size: 1.2em; /* Matched font size with other content */
+    margin: 15px 0; /* Increased spacing around the paragraph */
+}
+
+/* Adjusted Education content size */
+section#education p {
+    font-size: 1.2em; /* Matched font size with other content */
+    margin: 15px 0; /* Increased spacing around the paragraph */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.4em; /* Larger font size for footer */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contact */
+#contact p {
+    font-size: 1.6em; /* Larger font size for contact info */
+    text-align: left; /* Align contact info to the left */
+}
+
+#contact p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+}
